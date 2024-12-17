@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #e1f5fe;
+    overflow-x: hidden;
+    width: 100vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.animatedButton {
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.ql-editor {
+    border: none !important;
+    font-size: 16px !important;
+}
+
+.ql-toolbar {
+    border: none !important;
+}
+
+.ql-container {
+    border: none !important;
+}
